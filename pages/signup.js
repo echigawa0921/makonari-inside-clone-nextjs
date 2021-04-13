@@ -60,7 +60,7 @@ class SignUpForm extends Component {
         <Head>
           <title>アカウント作成 | {names.PORTFOLIO}</title>
           <meta name="description" content={names.PORTFOLIO_DESCRIPTION} />
-          <meta property="og:title" content="アカウント作成" />
+          <meta content="アカウント作成" />
           <meta property="og:description" content={names.PORTFOLIO_DESCRIPTION} />
           <meta property="og:image" content={metaOgimage} />
           <meta name="twitter:title" content="アカウント作成" />
@@ -92,7 +92,7 @@ class SignUpForm extends Component {
               placeholder="パスワード"
             />
             <div style={{ marginTop: '32px', textAlign: 'center', borderRadius: '8px' }}>
-              <button style={{ padding: '16px 48px', borderRadius: '8px' }} className="u-b-darkgray" disabled={isInvalid} type="submit">アカウント作成</button>
+              <button> アカウント作成</button>
             </div>
             {error && <p style={{ textAlign: 'center' }}>{error.message}</p>}
           </form>

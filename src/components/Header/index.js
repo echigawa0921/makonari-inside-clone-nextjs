@@ -22,7 +22,7 @@ const HeaderAuth = () => {
     <nav className="u-d-flex u-jc-sb">
       <div className="u-d-flex u-jc-c">
         <ActiveLink activeClassName="u-active-link" href={routes.HOME}>
-          <a className="u-d-flex u-d-flex-wp u-jc-c u-ai-c"><img src="/images/icons/house.svg" alt="" />ホーム</a>
+          <a className="u-d-flex u-d-flex-wp u-jc-c u-ai-c">ホーム</a>
         </ActiveLink>
       </div>
       <div className="u-d-flex u-jc-c">
@@ -37,15 +37,15 @@ const HeaderNonAuth = () => {
     <nav className="u-d-flex u-jc-sb">
       <div className="u-d-flex u-jc-c">
         <ActiveLink activeClassName="u-active-link" href={routes.HOME}>
-          <a className="u-d-flex u-d-flex-wp u-jc-c u-ai-c"><img src="/images/icons/house.svg" alt="" />ホーム</a>
+          <a className="u-d-flex u-d-flex-wp u-jc-c u-ai-c">ホーム</a>
         </ActiveLink>
       </div>
       <div className="u-d-flex u-jc-c">
         <ActiveLink activeClassName="u-active-link" href={routes.SIGN_UP}>
-          <a className="u-d-flex u-d-flex-wp u-jc-c u-ai-c"><img src="/images/icons/signup.svg" alt="" />アカウント作成</a>
+          <a className="u-d-flex u-d-flex-wp u-jc-c u-ai-c">アカウント作成</a>
         </ActiveLink>
         <ActiveLink activeClassName="u-active-link" href={routes.SIGN_IN}>
-          <a className="u-d-flex u-d-flex-wp u-jc-c u-ai-c"><img src="/images/icons/login.svg" alt="" />ログイン</a>
+          <a className="u-d-flex u-d-flex-wp u-jc-c u-ai-c">ログイン</a>
         </ActiveLink>
       </div>
     </nav>
