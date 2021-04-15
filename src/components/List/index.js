@@ -27,16 +27,31 @@ const ListAuth = () => {
 
 const ListNonAuth = () => {
   return (
-    <article style={{ textAlign: 'center' }}>
+    <article style={{ maxWidth:'500px'}}>
       <img style={{ maxWidth: '300px', marginBottom: '24px' }} src="/images/logos/nextjs.svg" alt="" />
-      <p>フロントはNext.js製です。</p>
+      <p>React学習のためフロントはNext.jsで作成しています。</p>
       <p>Inside Storiesのソースコードに記載されています。</p>
       <p>レスポンシブにさせたかったので、デザインは変えています。</p>
       <hr />
-      <img style={{ maxWidth: '300px', marginBottom: '24px' }} src="/images/logos/postcss.svg" alt="" />
-      <p>CSSのパーサーはPostCSSを使用しました。</p>
+      <img style={{ maxWidth: '300px', maxHeight: '400px',marginBottom: '24px' }} src="/images/logos/越川です。.jpg" alt="" />
+      <p>越川 雄貴</p>
+      <p className="left-text">React.Rubyを業務後日々3時間学習をして個人開発しています！！</p>
+      <p className="left-text">平日・土日問わずPC触ってます。</p>
+      <p className="left-text">【学習スキル】</p>
+      <p className="left-text">React.js.Javascript,Ruby,Rails,</p>
+      <p>AWS,Docker,Git,GitHub等</p>
+      <p>＊一度GitHubの草数を見に来てください。</p>
+      <p>ポートフォリオ</p>
+      <p>https://echigawa0921.github.io/portforio_0316/</p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+
       <hr />
-      <img style={{ maxWidth: '300px', marginBottom: '24px' }} src="/images/logos/firebase_auth.svg" alt="" />
+      <img style={{ maxWidth: '300px',maxHeight: '400px', marginBottom: '24px' }} src="/images/logos/走れます.jpg" alt="" />
       <p>認証はFirebaseを使用しました。</p>
     </article>
   )

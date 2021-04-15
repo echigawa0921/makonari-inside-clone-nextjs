@@ -22,9 +22,10 @@ const IndexPage = () => {
         <meta name="twitter:title" content={names.PORTFOLIO} />
         <meta name="twitter:description" content={names.PORTFOLIO_DESCRIPTION} />
       </Head>
-      <h1 style={{ margin: '80px 0' }} className="index__title">弊社マコなり社長が運営するInside Storiesのクローンサイトです。</h1>
+      <h1 style={{ margin: '80px 0' }} className="index__title">弊社マコなり社長が運営するInside Storiesのクローンサイト</h1>
       <List />
     </AppWithAuthentication>
+
   );
 }
 
