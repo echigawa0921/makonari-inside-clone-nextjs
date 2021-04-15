@@ -27,7 +27,7 @@ const ListAuth = () => {
 
 const ListNonAuth = () => {
   return (
-    <article style={{ maxWidth:'500px'}}>
+    <article style={{ textAlign: 'center' }}>
       <img style={{ maxWidth: '300px', marginBottom: '24px' }} src="/images/logos/nextjs.svg" alt="" />
       <p>React学習のためフロントはNext.jsで作成しています。</p>
       <p>Inside Storiesのソースコードに記載されています。</p>
@@ -38,7 +38,7 @@ const ListNonAuth = () => {
       <p className="left-text">React.Rubyを業務後日々3時間学習をして個人開発しています！！</p>
       <p className="left-text">平日・土日問わずPC触ってます。</p>
       <p className="left-text">【学習スキル】</p>
-      <p className="left-text">React.js.Javascript,Ruby,Rails,</p>
+      <p>React.js.Javascript,Ruby,Rails,</p>
       <p>AWS,Docker,Git,GitHub等</p>
       <p>＊一度GitHubの草数を見に来てください。</p>
       <p>ポートフォリオ</p>
