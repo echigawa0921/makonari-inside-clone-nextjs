@@ -32,7 +32,7 @@ main {
   flex: 1 0 auto; 
   padding-top: 70px;
   padding-bottom: 220px;
-  width: $large-width;
+  width: 50%;
   margin: auto;
   @media(--breakPC) {
     @mixin breakPcWidth;

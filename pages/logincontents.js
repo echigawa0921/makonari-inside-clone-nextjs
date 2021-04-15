@@ -23,7 +23,7 @@ const LoginContentsAuth = () => {
   return (
     <article style={{ marginTop: '64px', textAlign: 'center' }}>
       <Head>
-        <title>ログイン後のコンテンツ | {names.PORTFOLIO}</title>
+        <title>ブログ_コンテンツ | {names.PORTFOLIO}</title>
         <meta name="description" content={names.PORTFOLIO_DESCRIPTION} />
         <meta property="og:title" content="ログイン" />
         <meta property="og:description" content={names.PORTFOLIO_DESCRIPTION} />
@@ -31,8 +31,21 @@ const LoginContentsAuth = () => {
         <meta name="twitter:title" content="ログイン" />
         <meta name="twitter:description" content={names.PORTFOLIO_DESCRIPTION} />
       </Head>
-      <p>ログイン後のコンテンツです。</p>
-      <p>ログイン前にこちらのページに来ると、トップページへリダイレクトされます。</p>
+      <p>プログラミング  〜学習言語：6選〜</p>
+      <br></br>
+      <p>【学習言語】</p>
+      <p>ruby on rails </p>
+      <p>Ruby</p>
+      <p>React</p>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <p>全部これに飛びます笑</p>
+      <br></br>
+      <br></br>
+      <a href={routes.HOME}>ホーム</a>
+
     </article>
   )
 }

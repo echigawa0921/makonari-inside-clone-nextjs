@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer style={{ width: '100%' }}>
       <div style={{ margin: '0 auto' }} className="footer__box u-d-flex u-jc-sb u-ai-c">
-        <small>© Shinya Sato</small>
+        <small>© Yuki Echigawa</small>
         <div>
           <Link href={routes.GITHUB}>
             <a style={{ textDecoration: 'underline' }} target="_blank" rel="nofollow noopener noreferrer">Github<i style={{ marginLeft: '4px' }} className="fas fa-external-link-alt" aria-hidden="true" /></a>
