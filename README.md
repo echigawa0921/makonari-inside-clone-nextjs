@@ -1,11 +1,13 @@
 # Maconari inside app
-株式会社div代表まこさんが運営されている、サイトのシンプルなサイトに惹かれNode.jsで作成しました。
+株式会社div代表まこさんが運営されている、   サイトのシンプルなサイトに惹かれNode.jsで作成しました。
 <img width="800" alt="スクリーンショット 2021-04-13 20 48 57" src="https://user-images.githubusercontent.com/69971834/114549512-0fde7300-9c9c-11eb-8be4-70e9db82e5c5.png">
 
 # 概要
 
 マコなり社長が運営している[Inside Stories](https://is.makonari.com/)のクローンサイトです。  
-デザインとコンテンツは真似ず、中身のシステムだけ再現しました。
+デザインとコンテンツは真似ず、中身のシステムだけ再現しました。   
+   
+   リンク：https://vigilant-booth-44a5cf.netlify.app/
 
 # 開発環境
 
